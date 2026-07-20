@@ -66,7 +66,7 @@ if st.sidebar.button("Run Full Pipeline", type="primary", use_container_width=Tr
     st.rerun()
 st.sidebar.caption("Fetches, triages, and drafts -- stops at Approval Gate.")
 
-llm_provider = st.sidebar.selectbox("LLM Provider", ["Gemini", "Groq"], index=1)
+llm_provider = "Groq"
 
 # --- API KEY MANAGEMENT ---
 api_key = None
