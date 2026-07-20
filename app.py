@@ -10,6 +10,14 @@ import datetime
 import html
 from task_logger import log_action, get_action_log
 
+# --- GCP Auth Files Setup ---
+if not os.path.exists("credentials.json") and "gcp_credentials" in st.secrets:
+    with open("credentials.json", "w") as f:
+        f.write(st.secrets["gcp_credentials"])
+
+if not os.path.exists("token.json") and "gcp_token" in st.secrets:
+    with open("token.json", "w") as f:
+        f.write(st.secrets["gcp_token"])
 try:
     import engine  # type: ignore
 except ImportError:
