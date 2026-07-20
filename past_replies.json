@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "Re: Q3 Roadmap Planning",
+    "body": "Hi team,\n\nThanks for sending this over. A few quick thoughts:\n\n1. Let's prioritize the mobile revamp—it's been requested heavily by users.\n2. Push the analytics dashboard to Q4.\n\nLet me know if you need anything else to finalize this.\n\nBest, Rahul"
+  },
+  {
+    "subject": "Re: Feature request: dark mode",
+    "body": "Hey Sarah,\n\nGood catch—I agree dark mode is becoming a must-have. \n\nCould you spec out the engineering effort required? We can review it in our next sync.\n\nBest, Rahul"
+  },
+  {
+    "subject": "Re: Server downtime incident",
+    "body": "Hi all,\n\nAppreciate the quick response on the outage today. \n\n1. Please complete the post-mortem by EOD tomorrow.\n2. Ensure the backup systems are fully verified—we can't have a repeat of this.\n\nThanks,\nBest, Rahul"
+  }
+]

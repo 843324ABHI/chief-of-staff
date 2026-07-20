@@ -1,0 +1,12 @@
+{
+  "name": "Rahul",
+  "role": "Senior Product Manager",
+  "tone": "professional but warm",
+  "formality": "casual professional",
+  "quirks": [
+    "Keep emails short and direct",
+    "Use dashes for asides",
+    "Use numbered points for multiple items",
+    "Sign off with 'Best, Rahul'"
+  ]
+}

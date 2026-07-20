@@ -1,0 +1,9 @@
+[
+    {
+        "timestamp": "2026-07-20T12:36:57.600422",
+        "action_type": "sent",
+        "thread_subject": "Q3 Feedback required",
+        "detail": "manager@company.com",
+        "id": "mock_t2"
+    }
+]

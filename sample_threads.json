@@ -1,0 +1,57 @@
+[
+  {
+    "id": "t1",
+    "subject": "URGENT: Production database down",
+    "messages": [
+      {
+        "from": "ops@company.com",
+        "date": "2026-07-13T10:00:00Z",
+        "body": "The main production database is currently unreachable. We are investigating."
+      }
+    ]
+  },
+  {
+    "id": "t2",
+    "subject": "Q3 Feedback required",
+    "messages": [
+      {
+        "from": "manager@company.com",
+        "date": "2026-07-13T09:30:00Z",
+        "body": "Hi, please submit your feedback for the Q3 performance reviews by EOD today."
+      }
+    ]
+  },
+  {
+    "id": "t3",
+    "subject": "Notes from weekly standup",
+    "messages": [
+      {
+        "from": "scrum.master@company.com",
+        "date": "2026-07-13T09:00:00Z",
+        "body": "Here are the notes from our weekly standup: we discussed the upcoming release."
+      }
+    ]
+  },
+  {
+    "id": "t4",
+    "subject": "Follow up on vendor contract",
+    "messages": [
+      {
+        "from": "legal@company.com",
+        "date": "2026-07-12T15:00:00Z",
+        "body": "Have you reviewed the revised vendor contract? We need to reply to them by tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "t5",
+    "subject": "Meeting request: Design Review",
+    "messages": [
+      {
+        "from": "design@company.com",
+        "date": "2026-07-12T14:00:00Z",
+        "body": "I would like to schedule a quick meeting to review the latest UI mockups. Let me know when you're free."
+      }
+    ]
+  }
+]
