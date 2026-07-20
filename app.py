@@ -70,29 +70,19 @@ llm_provider = "Groq"
 
 # --- API KEY MANAGEMENT ---
 api_key = None
-if llm_provider == "Groq":
-    try:
-        if "Groq_API_KEY" in st.secrets:
-            api_key = st.secrets["Groq_API_KEY"]
-    except Exception:
-        pass
+try:
+    if "GROQ_API_KEY" in st.secrets:
+        api_key = st.secrets["GROQ_API_KEY"]
+    elif "Groq_API_KEY" in st.secrets:
+        api_key = st.secrets["Groq_API_KEY"]
+except Exception:
+    pass
 
-    if not api_key and "Groq_API_KEY" in os.environ:
-        api_key = os.environ["Groq_API_KEY"]
-            
-elif llm_provider == "Groq":
-    try:
-        if "GROQ_API_KEY" in st.secrets:
-            api_key = st.secrets["GROQ_API_KEY"]
-    except Exception:
-        pass
-
-    if not api_key and "GROQ_API_KEY" in os.environ:
-        api_key = os.environ["GROQ_API_KEY"]
+if not api_key:
+    api_key = os.environ.get("GROQ_API_KEY") or os.environ.get("Groq_API_KEY")
 
 if api_key:
-    if llm_provider == "Groq":
-        os.environ["Groq_API_KEY"] = api_key
+    os.environ["GROQ_API_KEY"] = api_key
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Workflow Navigation")
