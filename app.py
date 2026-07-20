@@ -90,7 +90,6 @@ elif llm_provider == "Groq":
     if not api_key and "GROQ_API_KEY" in os.environ:
         api_key = os.environ["GROQ_API_KEY"]
 
-api_key = st.sidebar.text_input(f"{llm_provider} API Key:", value=api_key or "", type="password")
 if api_key:
     if llm_provider == "Groq":
         os.environ["Groq_API_KEY"] = api_key
